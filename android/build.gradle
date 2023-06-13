@@ -15,6 +15,7 @@ def projectVar(name, fallback) {
 }
 
 android {
+    compileSdkVersion projectVar('compileSdkVersion', 23)
     buildToolsVersion projectVar('buildToolsVersion', '23.0.1')
 
     defaultConfig {
